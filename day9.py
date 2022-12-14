@@ -124,7 +124,9 @@ for i in range(len(lines)):
 
                 if xdif == 2:
                     T[k][0] = T[k][0] + 1
-                    if ydif == 1:
+
+                    # check this with new y dif etc
+                    if ydif == 1: 
                         T[k][1] = T[k][1] + 1
                     elif ydif == -1:
                         T[k][1] = T[k][1] - 1
